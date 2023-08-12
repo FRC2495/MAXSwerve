@@ -1,3 +1,3 @@
-# MAXSwerve Java Template Changelog
+# MAXSwerve Changelog
 
 N/A
