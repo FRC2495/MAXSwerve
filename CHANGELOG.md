@@ -1,3 +1,3 @@
-# MAXSwerve Changelog
+# Swerve Changelog
 
 N/A
