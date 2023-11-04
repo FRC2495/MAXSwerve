@@ -89,7 +89,11 @@ public class RobotContainer {
 		new JoystickButton(m_driverController, Button.kA.value)
 			.onTrue(new InstantCommand(
 				() -> m_robotDrive.zeroHeading(),
-				m_robotDrive).ignoringDisable(true));      
+				m_robotDrive).ignoringDisable(true));    
+				
+				
+		new JoystickButton(m_driverController, Button.kB.value)
+			.onTrue(getAutonomousCommand());
 	}
 
 	/**
